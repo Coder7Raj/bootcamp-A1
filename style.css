@@ -42,7 +42,7 @@ body {
 /* Intro Card */
 .intro-card {
   background-color: #ffffff;
-  max-width: 1000px;
+  max-width: 800px;
   margin: 40px auto;
   text-align: center;
   padding: 40px;
@@ -52,4 +52,33 @@ body {
 .intro-card .avatar {
   width: 150px;
   margin-bottom: 10px;
+}
+/* Why Section */
+.why-section {
+  padding: 40px;
+  margin: 40px auto;
+  border-radius: 16px;
+  text-align: center;
+}
+.why-card {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.why-card .text {
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
+.why-card img {
+  max-width: 300px;
+  height: auto;
+  margin-top: 20px;
 }
