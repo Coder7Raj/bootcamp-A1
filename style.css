@@ -1,0 +1,55 @@
+/* Gradient Background and Reset */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom, #dbeafe, #94cdf3);
+  color: #1e293b;
+}
+
+/* General Button Styling */
+.btn {
+  background-color: #facc15;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background-color: #fbbf24;
+}
+
+/* Header */
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+.logo span {
+  color: #facc15;
+}
+
+/* Intro Card */
+.intro-card {
+  background-color: #ffffff;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+.intro-card .avatar {
+  width: 150px;
+  margin-bottom: 10px;
+}
