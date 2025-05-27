@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* Gradient Background and Reset */
 body {
   margin: 0;
-  font-family: "Segoe UI", sans-serif;
+  /* font-family: "Segoe UI", sans-serif; */
+  font-family: "Roboto", sans-serif;
   background: linear-gradient(to bottom, #dbeafe, #94cdf3);
   color: #1e293b;
 }
@@ -157,4 +160,29 @@ footer .socials a {
   margin: 0 8px;
   text-decoration: none;
   font-size: 20px;
+}
+/*  */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .why-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .why-card img {
+    margin-top: 10px;
+  }
+  footer {
+    padding: 15px 5%;
+  }
+}
+@media (max-width: 425px) {
+  .why-section {
+    padding: 5px;
+  }
+  .inspiration {
+    padding: 5px;
+  }
 }
